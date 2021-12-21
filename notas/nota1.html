@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nota</title>
+</head>
+<body>
+    <script>
+        let alumno
+        let nota
+        let nota2
+        let nota3
+        let nota4
+        alumno=prompt("Ingrese el nombre del Estudiante: ")
+        nota=prompt("Ingrese la primera Nota del estudiante: ")
+        nota2=prompt("Ingrese la segunda Nota del estudiante: ")
+        nota3=prompt("Ingrese la tercera Nota del estudiante: ")
+        nota4=prompt("Ingrese la cuarta Nota del estudiante: ")
+        suma=parseInt(nota)+parseInt(nota2)+parseInt(nota3)+parseInt(nota4);
+        prom=suma/4
+        if (prom>13)
+            alert("El alumno "+alumno +" tiene un promedio de "+prom+" Aprobado")
+        else
+            alert("El alumno "+alumno +" tiene un promedio de "+prom+" Desaprobado")
+
+    </script>
+</body>
+</html>
